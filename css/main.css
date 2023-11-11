@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1345px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* FORM ******************* */
+.form {
+    margin: 20px 0px;
+}
+
+.form label input {
+    width: 100%;
+    max-width: 615px;
+    display: block;
+    background-color: #BB2339;
+    border: none;
+    border-radius: 100px;
+    color: #ffff;
+    padding: 15px 30px 15px;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-shadow: 0 5px 10px rgba(188, 192, 215, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    cursor: text;
+}
+
+.form label input::placeholder {
+    color: #fff;
+    margin-left: 100px;
+    opacity: 0.7;
+}
+
+.form label input {
+    outline: none;
+}
+
+.button-group {
+    margin: 20px 0px 0px;
+}
+
+button {
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #242424;
+    border: 1px solid #BB2339;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: #BB2339;
+    color: white;
+    transition: 1s;
+}
+
+/* FORM END ************************ */
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(25.333% - 18px), 1fr));
+    grid-gap: 18px;
+    margin: 30px 0px 60px;
+    align-items: start;
+}
+
+
+.card {
+    width: 310px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgba(36, 36, 36, 0.1);
+    border-radius: 14px;
+}
+
+.card-img {
+    width: 270px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.card-title {
+    margin: 20px 0px 10px;
+    width: 270px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #242424;
+}
+
+.card-price {
+    margin: 10px 0px;
+}
+
+.error-message {
+    margin: 15% auto 0px;
+    text-align: center;
+}
